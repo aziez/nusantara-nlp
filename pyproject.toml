@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "nusantara-nlp"
+version = "0.1.0"
+description = "Library NLP Bahasa Indonesia modern — Stemming, Stopword, Slang, Emoji, Tokenizer"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+keywords = [
+  "nlp", "bahasa indonesia", "text mining", "stemming",
+  "stopword", "slang", "tokenizer", "nlp-indonesia"
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Natural Language :: Indonesian",
+  "Topic :: Text Processing :: Linguistic",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/nusantara-nlp"
+Documentation = "https://github.com/yourname/nusantara-nlp#readme"
+"Bug Tracker" = "https://github.com/yourname/nusantara-nlp/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["nusantara*"]
+
+[tool.setuptools.package-data]
+"nusantara.stemmer.kamus" = ["*.txt"]
+"nusantara.stopword.data" = ["*.txt"]
+"nusantara.normalizer.data" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]

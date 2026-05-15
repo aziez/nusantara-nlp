@@ -1,0 +1,194 @@
+# Kamus Kata Dasar Bahasa Indonesia — Nusantara NLP
+# Format: satu kata per baris
+# Sumber: KBBI + corpus terbuka + kata serapan umum
+# ────────────────────────────────────────────────
+
+# === A ===
+ajar
+ambil
+atur
+ayun
+
+# === B ===
+baca
+bagi
+baik
+balik
+bangun
+bantu
+baru
+bawa
+bayar
+beli
+buat
+buang
+buka
+buruk
+
+# === C ===
+cari
+catat
+cerita
+coba
+
+# === D ===
+daftar
+dasar
+duduk
+
+# === E ===
+enak
+
+# === G ===
+gerak
+guna
+
+# === H ===
+hadap
+hadir
+harga
+hasil
+hilang
+hitung
+hubung
+
+# === I ===
+ikut
+ingat
+
+# === J ===
+jaga
+jalan
+jual
+
+# === K ===
+kerja
+kirim
+
+# === L ===
+layan
+lari
+latih
+lepas
+lupa
+
+# === M ===
+makan
+minum
+masalah
+main
+maju
+masuk
+milik
+mulai
+
+# === N ===
+nilai
+
+# === O ===
+olah
+
+# === P ===
+pakai
+pelajar
+punya
+pikir
+pindah
+
+# === R ===
+rasa
+rusak
+
+# === S ===
+sayang
+simpan
+suka
+surat
+
+# === T ===
+tahu
+tarik
+temukan
+tempat
+tulis
+tunggu
+turun
+
+# === U ===
+ubah
+ukur
+usaha
+utama
+
+# === W ===
+waktu
+wajib
+
+# === Z ===
+jelas
+kertas
+kiri
+kanan
+atas
+bawah
+depan
+belakang
+tengah
+dalam
+luar
+antara
+sebelum
+sesudah
+selama
+sejak
+sampai
+hingga
+setelah
+ketika
+karena
+sebab
+akibat
+agar
+supaya
+bahwa
+walaupun
+meskipun
+namun
+tetapi
+tapi
+atau
+dan
+juga
+pun
+lagi
+sudah
+belum
+sedang
+akan
+mau
+bisa
+dapat
+harus
+perlu
+boleh
+tidak
+bukan
+tanpa
+dengan
+untuk
+dari
+ke
+di
+pada
+oleh
+yang
+ini
+itu
+kami
+kita
+mereka
+dia
+ia
+saya
+kamu
+anda
