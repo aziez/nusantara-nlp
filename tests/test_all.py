@@ -108,12 +108,12 @@ class TestSlangNormalizer:
         self.norm = SlangNormalizer()
 
     def test_singkatan_umum(self):
-        hasil = self.norm.normalize("gw udh makan")
+        hasil = self.norm.normalize("aing dah makan")
         assert "saya" in hasil
         assert "sudah" in hasil
 
     def test_negasi_slang(self):
-        hasil = self.norm.normalize("gak mau pergi")
+        hasil = self.norm.normalize("kaga mau pergi")
         assert "tidak" in hasil
 
     def test_repetisi_huruf(self):
@@ -197,7 +197,7 @@ class TestNLPPipeline:
         self.nlp = NLP()
 
     def test_output_berisi_semua_kunci(self):
-        hasil = self.nlp.process("gw tidak suka ini")
+        hasil = self.nlp.process("aing tidak suka ini")
         required_keys = ["raw", "normalized", "cleaned", "tokens",
                          "tokens_clean", "tokens_stem", "result"]
         for key in required_keys:
@@ -214,7 +214,7 @@ class TestNLPPipeline:
         assert "👍" not in hasil["normalized"]
 
     def test_slang_ternormalisasi(self):
-        hasil = self.nlp.process("gw mau makan")
+        hasil = self.nlp.process("aing mau makan")
         assert "saya" in hasil["normalized"]
 
     def test_result_adalah_string(self):
