@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "nusantara-nlp"
-version = "0.1.0"
+version = "0.2.0"
 description = "Library NLP Bahasa Indonesia modern — Stemming, Stopword, Slang, Emoji, Tokenizer"
 readme = "README.md"
 license = "MIT"
